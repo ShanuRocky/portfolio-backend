@@ -30,11 +30,11 @@ This is the backend for the Portfolio Tracker application, built with **Express.
    npm install
 
 3. Create a .env file in the root directory and add your environment variables:
-   -DB_HOST=your-database-host
-   -DB_USER=your-database-user
-   -DB_PASSWORD=your-database-password
-   -DB_NAME=your-database-name
-   -PORT=3001
+   - DB_HOST=your-database-host
+   - DB_USER=your-database-user
+   - DB_PASSWORD=your-database-password
+   - DB_NAME=your-database-name
+   - PORT=3001
 
 4. Run the development server:
    npm run dev
