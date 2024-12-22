@@ -13,7 +13,6 @@ initializeDatabase();
 app.get('/api/stocks/search', async (req, res) => {
     try {
       const { query } = req.query;
-      console.log(query);
       if (!query || query.length < 2) {
         return res.json([]);
       }
@@ -31,8 +30,6 @@ app.get('/api/stocks', async (req, res) => {
     const [rows] = await pool.query('SELECT * FROM stocks');
     const tickers = rows.map(stock => stock.ticker);
     const currentPrices = await getCurrentPrices(tickers);
-
-    console.log("hello", currentPrices);
     
     const stocks = rows.map( stock => ({
       id: stock.id,
