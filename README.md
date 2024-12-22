@@ -37,6 +37,7 @@ This is the backend for the Portfolio Tracker application, built with **Express.
    - PORT=3001
 
 4. Run the development server:
+   ```bash
    npm run dev
 
 ## Assumptions and Limitations
