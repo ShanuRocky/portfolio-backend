@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# .env files for environment variables (sensitive data)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build output
+/.next/
+/build/
+/dist/
+
+# Vercel or Netlify deployment directories
+/.vercel/
+/.netlify/
+
+# Next.js generated files
+.next/
+out/
+
+# IDE or Editor files (VS Code, etc.)
+.vscode/
+/.idea/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Temporary files (created by OS)
+*.swp
+*.swo
+
+# NPM package lock file (optional, only if you want to ignore)
+# package-lock.json
+
+# Dependency directories for package managers
+yarn.lock
+pnpm-lock.yaml
