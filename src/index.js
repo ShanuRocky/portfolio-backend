@@ -13,6 +13,7 @@ initializeDatabase();
 app.get('/api/stocks/search', async (req, res) => {
     try {
       const { query } = req.query;
+      console.log(query);
       if (!query || query.length < 2) {
         return res.json([]);
       }
