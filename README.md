@@ -46,3 +46,7 @@ This is the backend for the Portfolio Tracker application, built with **Express.
 
 ## Deployed Application
 - The backend is hosted on Render
+
+## API Documentation
+- The backend provides a set of RESTful APIs for managing stocks and fetching real-time data. 
+- The API documentation is available at: https://portfolio-backend-ahwd.onrender.com
