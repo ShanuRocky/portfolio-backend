@@ -2,7 +2,7 @@
 
 This is the backend for the Portfolio Tracker application, built with **Express.js**, **MySQL**, and **Yahoo Finance** for real-time stock data fetching.
 
-## Features
+## 🌟 Features
 - **RESTful APIs**:
   - Add a new stock.
   - Update existing stock details.
@@ -13,13 +13,13 @@ This is the backend for the Portfolio Tracker application, built with **Express.
 - **Exception Handling**: Properly handles exceptions and returns meaningful HTTP status codes.
 - **Search Functionality**: Search for stocks using ticker symbols from Yahoo Finance.
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **Express.js**: Web framework for handling API requests.
 - **MySQL**: Database for storing stock details and portfolio information.
 - **Yahoo Finance API**: For fetching real-time stock data.
 - **Node.js**: Runtime environment for the server.
 
-## Installation
+## 🚀 Getting Started
 1. Clone the repository:
    ```bash
    git clone https://github.com/ShanuRocky/portfolio-backend.git
